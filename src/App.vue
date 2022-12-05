@@ -17,9 +17,9 @@ import cssVar from './components/cssVar.vue'
   </div>
   <div>
     <!-- <colorMode></colorMode> -->
-    <cssVar></cssVar>
+    <!-- <cssVar></cssVar> -->
   </div>
-  <!-- <HelloWorld msg="unocss + vite + Vue" /> -->
+  <HelloWorld msg="unocss + vite + Vue" />
 </template>
 
 <style scoped>

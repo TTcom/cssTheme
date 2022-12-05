@@ -22,7 +22,10 @@ const setColor = (e)=>{
   orange="text-orange-200"
   green="text-green-200"
   blue="text-blue-200"
+ wey-text-gray-200
   >{{ msg }}</div>
+  <div class="tank" text-custom >tank_colors</div>
+  <div class="picker" text-custom >picker_colors</div>
   <div flex gap-2 mt-3 @click="setColor($event)">
     <div class="rounded-full w-8 h-8 bg-indigo-200"></div>
     <div class="rounded-full w-8 h-8 bg-red-200"></div>
@@ -30,7 +33,7 @@ const setColor = (e)=>{
     <div class="rounded-full w-8 h-8 bg-green-200"></div>
     <div class="rounded-full w-8 h-8 bg-blue-200"></div>
     <div class="rounded-full w-8 h-8 bg-purple-200"></div>
-    <div class="rounded-full w-8 h-8 bg-gray-200"></div>
+    <div class="rounded-full w-8 h-8 bg-wey-200">wey</div>
   </div>
   
 </template>

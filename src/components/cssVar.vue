@@ -20,9 +20,13 @@ const changeVar = () => {
     key.value = '--color'
 }
 </script>
-
+<style>
+ .ell{
+  color: var(--color)
+ }
+</style>
 <template>
-  <div ref="el" style="color: var(--color)">
+  <div ref="el" class="ell">
     Sample text, {{ color }}
   </div>
   <button @click="switchColor">
