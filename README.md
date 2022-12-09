@@ -4,4 +4,9 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- https://github.com/unocss/unocss
+- https://cn.windicss.org/guide/
+- https://icones.js.org/collection/carbon?s=close 
+- https://github.com/maggie-j-liu/unocss-themes
+- https://github.com/Dunqing/unocss-preset-theme
+- https://vueuse.org/core/useColorMode/

@@ -28,7 +28,8 @@ import {
    },
   
     shortcuts: [
-      ['icon-btn', 'text-[16px] inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-50 '],
+      ['weybtn', 'icon-btn px-4 font-semibold rounded-lg shadow-md'],
+      ['icon-btn', 'text-[16px] text-red inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-50 '],
     ],
     presets: [
       presetWind(),
@@ -40,23 +41,17 @@ import {
       }),
       presetTheme({
         theme: {
-          tank: {
-            colors: {
-              'primary': '#1668dc',
-              'custom': 'green',
-              'primary-border': '#1668dc',
-            },
-          },
           picker: {
-            colors: {
-              'primary': '#1668dc',
-              'custom': 'rgba(254,202,202,1)',
-              'primary-border': '#1668dc',
-            },
-            spacing: {
-              custom: '22px',
-              xs: '4px'
-            },
+              colors: {
+              'primary': 'red',
+              'custom': 'yellow',
+            }
+          },
+          atank: {
+              colors: {
+              'primary': 'red',
+              'custom': 'green',
+            }
           },
         },
       }),
@@ -71,6 +66,7 @@ import {
           orange: ".orange",
           green: ".green",
           blue: ".blue",
+          tank: ".tank",
         },
       }),
       // add your custom variants here
