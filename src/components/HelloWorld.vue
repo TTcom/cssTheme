@@ -17,6 +17,16 @@ const setColor = (e)=>{
 </script>
 
 <template>
+  <div class="before:content-[quoted:1234]" 
+  before:block
+ before:bg-red 
+  before:absolute 
+  before:c-blue
+  before:left-0
+  relative
+  > 
+    tyr before text
+  </div>
   <!-- unocss-preset-theme示例 -->
   <div class="picker">
       <div text-custom>picker-theme-custom</div>
